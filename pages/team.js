@@ -17,7 +17,7 @@ export default function About() {
         <Image src="/favicon.png" width={150} height={150} alt="Axolotl" />
 
         <h1 className={styles.title}>
-          About Us
+          Team
         </h1>
 
         <div className={styles.grid}>
@@ -25,13 +25,19 @@ export default function About() {
           <a className={styles.card_hoverless}>
             <Image src="/team_pictures/Acevix.jpg" width={150} height={150} alt="Avatar" id='circular' />
             <h2>Acevix</h2>
-            <p className='team_rank'>Owner & Founder</p>
+            <p className='team_rank'>Product Manager</p>
           </a>
 
           <a className={styles.card_hoverless}>
             <Image src="/team_pictures/illuminator3.webp" width={150} height={150} alt="Avatar" id='circular' />
             <h2>illuminator3</h2>
-            <p className='team_rank'>Head Developer</p>
+            <p className='team_rank'>Head of Developers</p>
+          </a>
+
+          <a className={styles.card_hoverless}>
+            <Image src="/team_pictures/eros.png" width={150} height={150} alt="Avatar" id='circular' />
+            <h2>Eros</h2>
+            <p className='team_rank'>Head of Partners</p>
           </a>
 
         </div>
