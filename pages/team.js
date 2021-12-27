@@ -28,6 +28,12 @@ export default function About() {
             <p className='team_rank'>Product Manager</p>
           </a>
 
+         <a className={styles.card_hoverless}>
+            <Image src="/team_pictures/Lavender.png" width={150} height={150} alt="Avatar" id='circular' />
+            <h2>Lavendertail</h2>
+            <p className='team_rank'>Head of Customer Service</p>
+          </a>
+
           <a className={styles.card_hoverless}>
             <Image src="/team_pictures/illuminator3.webp" width={150} height={150} alt="Avatar" id='circular' />
             <h2>illuminator3</h2>
