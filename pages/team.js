@@ -31,7 +31,7 @@ export default function About() {
           <a className={styles.card_hoverless}>
             <Image src="/team_pictures/illuminator3.webp" width={150} height={150} alt="Avatar" id='circular' />
             <h2>illuminator3</h2>
-            <p className='team_rank'>Head of Developers</p>
+            <p className='team_rank'>Development Lead</p>
           </a>
 
           <a className={styles.card_hoverless}>
