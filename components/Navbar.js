@@ -1,6 +1,13 @@
 import Link from 'next/link';
 import styled from 'styled-components'
 
+const smallScreen = {
+    small1: {
+        min: '0px',
+        max: '715px'
+    }
+}
+
 const Nav = styled.nav`
     padding-left: 2rem;
     height: 80px;
