@@ -35,3 +35,11 @@ a {
     font-weight: 100;
     border-radius: 30px;
 }
+
+.team_rank_orange {
+    background-color: darkorange;
+    color: #fff;
+    font-family: 'Minecraft';
+    font-weight: 100;
+    border-radius: 30px;
+}

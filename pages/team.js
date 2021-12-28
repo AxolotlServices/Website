@@ -20,31 +20,61 @@ export default function About() {
           Team
         </h1>
 
+        <footer className={styles.footer_wide}>
+            <h2 className={styles.title_small}>Management</h2>
+        </footer>
+
         <div className={styles.grid}>
 
-          <a className={styles.card_hoverless}>
-            <Image src="/team_pictures/Acevix.jpg" width={150} height={150} alt="Avatar" id='circular' />
-            <h2>Acevix</h2>
-            <p className='team_rank'>Product Manager</p>
-          </a>
+            <a className={styles.card_hoverless}>
+                <Image src="/team_pictures/Acevix.jpg" width={150} height={150} alt="Avatar" id='circular' />
+                <h2>Acevix</h2>
+                <p className='team_rank'>Product Manager</p>
+            </a>
 
-         <a className={styles.card_hoverless}>
-            <Image src="/team_pictures/Lavender.png" width={150} height={150} alt="Avatar" id='circular' />
-            <h2>Lavender</h2>
-            <p className='team_rank'>Head of Customer Service</p>
-          </a>
+            <a className={styles.card_hoverless}>
+                <Image src="/team_pictures/Lavender.png" width={150} height={150} alt="Avatar" id='circular' />
+                <h2>Lavender</h2>
+                <p className='team_rank'>Customer Service</p>
+            </a>
 
-          <a className={styles.card_hoverless}>
-            <Image src="/team_pictures/illuminator3.webp" width={150} height={150} alt="Avatar" id='circular' />
-            <h2>illuminator3</h2>
-            <p className='team_rank'>Head of Developers</p>
-          </a>
+            <a className={styles.card_hoverless}>
+                <Image src="/team_pictures/illuminator3.webp" width={150} height={150} alt="Avatar" id='circular' />
+                <h2>illuminator3</h2>
+                <p className='team_rank'>Development</p>
+            </a>
 
-          <a className={styles.card_hoverless}>
-            <Image src="/team_pictures/eros.png" width={150} height={150} alt="Avatar" id='circular' />
-            <h2>Eros</h2>
-            <p className='team_rank'>Head of Partners</p>
-          </a>
+            <a className={styles.card_hoverless}>
+                <Image src="/team_pictures/eros.png" width={150} height={150} alt="Avatar" id='circular' />
+                <h2>Eros</h2>
+                <p className='team_rank'>Customer Service</p>
+            </a>
+
+            <a className={styles.card_hoverless}>
+                <Image src="/team_pictures/Golden.png" width={150} height={150} alt="Avatar" id='circular' />
+                <h2>Golden</h2>
+                <p className='team_rank'>Staff & Discord</p>
+            </a>
+
+        </div>
+
+        <footer className={styles.footer_wide}>
+            <h2 className={styles.title_small}>Staff</h2>
+        </footer>
+
+        <div className={styles.grid}>
+
+        <a className={styles.card_hoverless}>
+            <Image src="/team_pictures/quack.png" width={150} height={150} alt="Avatar" id='circular' />
+            <h2>Quack</h2>
+            <p className='team_rank_orange'>Website Developer</p>
+        </a>
+
+        <a className={styles.card_hoverless}>
+            <Image src="/team_pictures/Camil.png" width={150} height={150} alt="Avatar" id='circular' />
+            <h2>Camil</h2>
+            <p className='team_rank_orange'>Support</p>
+        </a>
 
         </div>
 

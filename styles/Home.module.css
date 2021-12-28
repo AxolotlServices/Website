@@ -26,6 +26,16 @@
   align-items: center;
 }
 
+.footer_wide {
+    display: flex;
+    flex: 1;
+    padding: 0.5rem 0;
+    border-top: 5px solid #eaeaea;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+  }
+
 .footer a {
   display: flex;
   justify-content: center;
@@ -51,6 +61,14 @@
   font-family: 'Minecraft';
   font-weight: 100;
 }
+
+.title_small {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 2rem;
+    font-family: 'Minecraft';
+    font-weight: 100;
+  }
 
 .title,
 .description {
