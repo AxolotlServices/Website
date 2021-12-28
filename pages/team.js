@@ -76,6 +76,12 @@ export default function About() {
             <p className='team_rank_orange'>Support</p>
         </a>
 
+        <a className={styles.card_hoverless}>
+            <Image src="/team_pictures/space_monkeys.png" width={150} height={150} alt="Avatar" id='circular' />
+            <h2>Space</h2>
+            <p className='team_rank_orange'>Support</p>
+        </a>
+
         </div>
 
         {/* <p className={styles.description}>
